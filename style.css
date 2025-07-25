@@ -1,0 +1,29 @@
+ /* Google Fonts Import */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Serif:wght@400;700&display=swap');
+
+    /* Custom CSS with new class names */
+    body {
+      background-color: #f5f8ff;
+    }
+
+    /* Font utilities */
+    .font-inter {
+      font-family: "Inter", sans-serif;
+    }
+
+    .font-noto-serif {
+      font-family: "Noto Serif", serif;
+    }
+
+    /* General Layout */
+    .page-header {
+      margin: 20px auto;
+    }
+
+    .hero-section {
+      margin: 20px auto;
+    }
+
+    .hero-section__image-wrapper {
+      margin: 20px auto;
+    }

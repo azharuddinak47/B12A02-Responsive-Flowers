@@ -32,3 +32,144 @@
       padding-top: 10px;
       padding-bottom: 10px;
     }
+     /* Plant Lover Promo Section */
+    .plant-lover-promo {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 1140px;
+      margin: auto;
+      overflow: visible;
+      gap: 20px;
+    }
+
+    .plant-lover-promo__badge {
+      position: absolute;
+      top: -45px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 120px;
+      height: 120px;
+      z-index: 2;
+    }
+
+    .plant-lover-promo__image-column {
+      flex: 1;
+    }
+
+    .plant-lover-promo__image-column img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .plant-lover-promo__text-column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .plant-lover-promo__text-column h2 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .plant-lover-promo__text-column ul {
+      list-style: disc;
+      padding-left: 20px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    /* Latest Deals Section */
+    .latest-deals {
+      margin: 40px auto;
+    }
+
+    .latest-deals__header {
+      padding: 20px;
+    }
+
+    .latest-deals__header h1 {
+      margin-bottom: 15px;
+    }
+
+    .latest-deals__grid {
+      max-width: 1140px;
+      margin: 50px auto;
+    }
+
+    .latest-deals__column-small {
+      width: 33%;
+    }
+    
+    .deal-card {
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 14px;
+        text-align: center;
+        overflow: hidden;
+        color: white;
+    }
+
+    .deal-card--small-1 {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./assets/deal-bloom.png');
+      height: 200px;
+    }
+
+    .deal-card--small-2 {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./assets/deal-ana.png');
+      height: 200px;
+    }
+
+    .latest-deals__column-large {
+      width: 66%;
+    }
+
+    .deal-card--large {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./assets/deal-zabo.png');
+      height: 420px;
+    }
+    
+    /* Newsletter Signup Section */
+    .newsletter-signup {
+      background-image: url('./assets/news-letter-bg.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 400px;
+      width: 100%;
+      overflow: hidden;
+      margin-bottom: 30px;
+    }
+
+    .newsletter-signup__content h1 {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    
+    .newsletter-signup__form-wrapper {
+      border: none;
+      overflow: hidden;
+      max-width: 600px;
+      width: 100%;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .newsletter-signup__form-wrapper input {
+      width: 450px;
+      height: 40px;
+      border: none;
+      outline: none;
+      flex: 1;
+      background-color: white;
+      padding-left: 20px;
+    }
+
+    .newsletter-signup__form-wrapper button {
+      padding: 0 12px 0 12px;
+    }
+

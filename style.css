@@ -27,3 +27,8 @@
     .hero-section__image-wrapper {
       margin: 20px auto;
     }
+     /* Plant Card Styles */
+    .plant-card__button {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }

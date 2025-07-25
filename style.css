@@ -172,4 +172,104 @@
     .newsletter-signup__form-wrapper button {
       padding: 0 12px 0 12px;
     }
+ /* Footer Section */
+    .page-footer {
+      margin: 20px auto;
+    }
+    
+    .page-footer__brand {
+        padding-left: 20px;
+    }
 
+    .page-footer__brand p {
+      padding: 20px 0;
+    }
+
+    .page-footer__nav ul li {
+      line-height: 60px;
+    }
+    
+    .social-icon--twitter {
+        padding-top: 8px;
+        height: 30px;
+    }
+
+    /* Message Box for Add to Cart */
+    #message-box {
+        position: fixed;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #28a745;
+        color: white;
+        padding: 16px 32px;
+        border-radius: 8px;
+        z-index: 1000;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s, visibility 0.5s;
+        font-family: "Inter", sans-serif;
+    }
+
+    #message-box.show {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* Responsive Styles */
+    @media screen and (max-width: 640px) {
+      .page-header {
+        padding: 0 20px;
+      }
+
+      .featured-plants__grid {
+        margin: 10px 15px;
+      }
+
+      .plant-lover-promo {
+        flex-direction: column;
+        text-align: right;
+      }
+
+      .plant-lover-promo__badge {
+        display: none;
+      }
+
+      .plant-lover-promo__text-column {
+        padding-top: 20px;
+        text-align: left;
+      }
+
+      .plant-lover-promo__text-column ul {
+        text-align: left;
+        margin: 0 auto;
+        max-width: 90%;
+      }
+
+      .latest-deals__column-small {
+        width: 90%;
+        margin: auto;
+      }
+
+      .latest-deals__column-large {
+        width: 90%;
+        padding-top: 20px;
+        margin: auto;
+      }
+
+      .deal-card--large {
+        height: 200px;
+      }
+
+      .newsletter-signup__form-wrapper input {
+        width: 250px;
+      }
+
+      .page-footer {
+        padding-left: 20px;
+      }
+
+      .page-footer__brand {
+        padding: 10px 0;
+      }
+    }

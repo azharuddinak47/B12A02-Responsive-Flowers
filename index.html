@@ -219,5 +219,49 @@
       </div>
     </section>
   </main>
+  <!-- Footer -->
+  <footer class="bg-[#f5f8ff] pt-10 pb-5">
+    <div class="page-footer max-w-[1140px] mx-auto grid sm:grid-cols-3 gap-8 px-4">
+      <div class="page-footer__brand">
+        <img src="./assets/logo.png" alt="Logo" class="h-14">
+        <p class="text-gray-500 font-inter">Indulge your senses with the <br class="hidden sm:block"> beauty and <br class="block sm:hidden">fragrance of our fresh <br class="hidden sm:block"> flower shop. </p>
+      </div>
+      <div class="page-footer__nav grid sm:grid-cols-2 col-span-1 sm:col-span-1">
+        <ul class="font-inter text-gray-700">
+          <li class="font-bold text-black">Company</li>
+          <li><a href="#" class="hover:text-orange-600">About Us</a></li>
+          <li><a href="#" class="hover:text-orange-600">Blog</a></li>
+          <li><a href="#" class="hover:text-orange-600">Contact Us</a></li>
+        </ul>
+        <ul class="font-inter text-gray-700">
+          <li class="font-bold text-black">Support</li>
+          <li><a href="#" class="hover:text-orange-600">FAQ</a></li>
+          <li><a href="#" class="hover:text-orange-600">Privacy Policy</a></li>
+          <li><a href="#" class="hover:text-orange-600">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="page-footer__socials flex sm:justify-center items-start gap-4">
+        <a href="#"><img src="./assets/icon-facebook.png" alt="Facebook" class="rounded-full"></a>
+        <a href="#"><img src="./assets/icon-twitter.png" alt="Twitter" class="rounded-full"></a>
+        <a href="#"><img src="./assets/icon-linkedin.png" alt="LinkedIn" class="rounded-full"></a>
+        <a href="#"><img src="./assets/icon-youtube.png" alt="YouTube" class="rounded-full"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // JavaScript for the custom message box
+    function showModal(message) {
+      const messageBox = document.getElementById('message-box');
+      messageBox.textContent = message;
+      messageBox.classList.add('show');
+
+      // Hide the message box after 3 seconds
+      setTimeout(() => {
+        messageBox.classList.remove('show');
+      }, 3000);
+    }
+  </script>
+
 </body>
 </html>
